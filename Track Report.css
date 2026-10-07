@@ -1,0 +1,284 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+ .body{
+        height: auto;
+    }
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+.nav-links{
+    display: flex;
+    
+}
+
+.nav-links a{
+    background-color: #ffffff;
+    color: #151515;
+    text-decoration: none;
+    font-family: "Dm San",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+#logo{
+    color: #151515;
+    font-family: "Dm San",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+
+/*hero-section*/
+
+.hero{
+     background-color:#f0f7ff;
+    padding: 60px 40px;
+}
+
+.card{
+    background-color: #ffffff;
+    border-radius: 10px;
+    padding: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 6%;
+    
+}
+
+h1{
+    justify-self: center;
+    font-family: "Dm San",sans-serif;
+    font-size: 30px;
+    font-weight: 600;
+    color: #151515;
+    margin-bottom: 3%;
+    
+    
+}
+
+p{
+   justify-self: center;
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #343434;
+    margin-bottom: 6%; 
+}
+
+form{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-bottom: 7%;
+}
+
+input{
+    border-radius: 8px;
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #585858;
+    
+
+}
+
+button{
+    border-radius: 10px;
+    background-color: red;
+    padding: 13px;
+    color: #ffffff;
+    border: none;
+    font-weight: bold;
+}
+
+/*footer*/
+
+footer{
+    padding: 60px ;
+    height: auto;
+    background-color: #151515;
+}
+
+footer h6{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    justify-self: center;
+    color: #ffffff;
+    margin-bottom: 3%;
+}
+
+
+footer h2{
+    justify-self: center;
+    font-family: "Dm San",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #151515; 
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+
+    body {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    nav {
+        display: flex;
+        align-items: center;
+        padding: 1rem;
+        background-color: #ffffff;
+    }
+
+    .nav-links {
+        display: block;
+        gap: 2px;
+    }
+
+    .nav-links a {
+        background-color: #ffffff;
+        color: #151515;
+        text-decoration: none;
+        font-family: "Dm Sans", sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+    }
+
+    #logo {
+        color: #151515;
+        font-family: "Dm Sans", sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+    }
+
+    
+    .hero {
+        background-color: #f0f7ff;
+        padding: 2rem;
+        flex: 1; 
+    }
+
+    .card {
+        background-color: #ffffff;
+        border-radius: 10px; 
+        width: 100%;
+        max-width: 300px;
+        margin: 0 auto 6% auto;
+    }
+
+    h1 {
+        justify-self: center;
+        font-family: "Dm Sans", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        color: #151515;
+        margin-bottom: 3%;
+        width: 100%;
+    }
+
+    p {
+        justify-self: center;
+        font-family: "Inter", sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color: #343434;
+        margin-bottom: 6%; 
+    }
+
+    form {
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        margin-bottom: 7%;
+    }
+
+    input {
+        border-radius: 8px;
+        padding: 10px;
+        width: 70%;
+        border: 1px solid #585858;
+    }
+
+    button {
+        border-radius: 10px;
+        background-color: red;
+        padding: 13px;
+        color: #ffffff;
+        border: none;
+        font-weight: bold;
+    }
+
+
+    footer {
+        padding: 1.6rem;
+        background-color: #151515;
+    }
+
+    footer h6 {
+        font-family: "Inter", sans-serif;
+        font-size: 12px;
+        font-weight: 300;
+        justify-self: center;
+        color: #ffffff;
+        margin-bottom: 3%;
+    }
+
+    footer h2 {
+        justify-self: center;
+        font-family: "Dm Sans", sans-serif;
+        font-size: 14px;
+        font-weight: 300;
+        color: #ffffff;
+        width: 100%;
+        text-align: center;
+    }
+}

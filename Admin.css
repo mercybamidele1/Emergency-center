@@ -1,0 +1,370 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:#f0f7ff;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+.nav-links{
+    display: flex;
+    
+}
+
+.nav-links a{
+    background-color: #ffffff;
+    color: #151515;
+    text-decoration: none;
+    font-family: "Dm San",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+#logo{
+    color: #151515;
+    font-family: "Dm San",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/*hero-section*/
+
+.hero{
+     background-color:#f0f7ff;
+    padding: 40px 60px;
+}
+
+h1{
+    font-family: "Dm San",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #151515;
+    margin-bottom: 1%;
+}
+
+p{
+    font-family: "Inter",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #323232;
+    margin-bottom: 5%;
+}
+
+
+.card{
+    display: flex;
+    gap: 22px;
+    margin-bottom: 3%;
+}
+
+.card1{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+}
+
+span{
+    margin-left: 45%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+h5{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #151515;
+    justify-self: center;
+    margin-top: 2%;
+}
+
+
+.card2{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.card3{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+}
+
+.card4{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+}
+
+
+.con{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 30px;
+}
+
+.con h2{
+    font-family: "Dm San",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #151515;
+}
+
+
+/*footer*/
+footer{
+    padding: 60px ;
+    height: auto;
+    background-color: #151515;
+}
+
+footer h6{
+    font-family: "Inter",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    justify-self: center;
+    color: #ffffff;
+    margin-bottom: 3%;
+}
+
+
+footer h2{
+    justify-self: center;
+    font-family: "Dm San",sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    color: #151515; 
+    color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px ){
+
+body{
+    background-color:#f0f7ff;
+    
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #ffffff;
+}
+
+
+.nav-links{
+    display:block;
+    gap: 2px;
+    
+}
+
+.nav-links a{
+    background-color: #ffffff;
+    color: #151515;
+    text-decoration: none;
+    font-family: "Dm San",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+
+}
+
+#logo{
+    color: #151515;
+    font-family: "Dm San",sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+/*hero-section*/
+
+.hero{
+     background-color:#f0f7ff;
+     
+     
+}
+
+h1{
+    font-family: "Dm San",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #151515;
+    margin-bottom: 1%;
+    
+}
+
+p{
+    font-family: "Inter",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #323232;
+    margin-bottom: 5%;
+}
+
+
+.card{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    width: 100%;
+    padding: 0.2rem;
+    margin: 0 auto;
+    
+}
+
+.card1{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+    margin-bottom: 8%;
+}
+
+span{
+    margin-left: 45%;
+    margin-bottom: 3%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+
+h5{
+    font-family: "Inter",sans-serif;
+    font-size: 10px;
+    font-weight: 300;
+    color: #151515;
+    
+    margin-top: 2%;
+}
+
+
+.card2{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+    margin-bottom: 8%;
+
+}
+
+
+.card3{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+    margin-bottom: 8%;
+    
+
+}
+
+.card4{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    max-width: 250px;
+    padding: 20px;
+    margin-bottom: 8%;
+
+}
+
+
+.con{
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 100%;
+    padding: 2rem;
+}
+
+.con h2{
+    font-family: "Dm San",sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #151515;
+}
+
+
+
+
+
+
+/*footer*/
+
+footer{
+    padding:3.6rem;
+    height: auto;
+    background-color: #151515;
+}
+
+footer h6{
+    font-family: "Inter",sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    justify-self: center;
+    color: #ffffff;
+    margin-bottom: 3%;
+    
+}
+
+
+footer h2{
+    justify-self: center;
+    font-family: "Dm San",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    color: #151515; 
+    color: #ffffff;
+    width: 100%;
+    text-align: center;
+
+}
+
+
+
+}
