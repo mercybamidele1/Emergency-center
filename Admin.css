@@ -94,7 +94,7 @@ h5{
     font-size: 14px;
     font-weight: 300;
     color: #151515;
-    justify-self: center;
+    align-items:center;
     margin-top: 2%;
 }
 
@@ -148,7 +148,7 @@ footer h6{
     font-family: "Inter",sans-serif;
     font-size: 14px;
     font-weight: 300;
-    justify-self: center;
+    align-items: center;
     color: #ffffff;
     margin-bottom: 3%;
 }
